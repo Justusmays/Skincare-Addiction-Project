@@ -1,0 +1,74 @@
+body {background:#ffffff; font-family: 'Montserrat', sans-serif; height: 100%; margin: 0; padding: 0;}
+
+#wrapper{padding:90px 15px;}
+.navbar-expand-lg .navbar-nav.side-nav{flex-direction: column;}
+.navbar-brand {  position: absolute; left: 43%;}
+.header-top{box-shadow: 0 3px 5px rgba(0,0,0,.1)}
+.leftmenutrigger{display: none}
+@media(min-width:992px) {
+.leftmenutrigger{display: block;display: block;margin: 7px 20px 4px 0;cursor: pointer;}
+#wrapper{padding: 41px 15px 15px 15px; }
+.navbar-nav.side-nav.open {left:0;}
+.navbar-nav.side-nav{background: #dfdfdf;box-shadow: 2px 1px 2px rgba(0,0,0,.1);position:fixed;top:56px;flex-direction: column!important;left:-220px;width:200px;overflow-y:auto;bottom:0;overflow-x:hidden;padding-bottom:40px}
+.text {padding: 80px;}
+.row .col img {max-width: 100%; max-height: 100vh;height: auto;}
+}
+
+
+.Skintype .container {
+  background-color: #f9f9f9;
+  text-align: center;
+  margin: 90px auto;
+  
+}
+
+.Skintype .container p {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin: auto;
+  animation: fadein 6s;
+}
+
+.Skintype h3 {
+  padding-top: 30px;
+  animation: fadein 4s;
+}
+
+
+.footer2 {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 50px;
+  height: 100%; 
+  width:100%;
+  position: relative;
+  left: 0;
+  bottom: 0; 
+  margin-top: 331px;
+}
+
+         
+ @keyframes fadein {
+     from { opacity: 0; }
+     to   { opacity: 1; }
+ }
+
+
+input {
+  
+
+  /* other CSS styles */
+
+  /* round the corners */
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 10px;
+
+
+  /* make it glow! */
+  -webkit-box-shadow: 0px 0px 5px #3b3b3b;
+     -moz-box-shadow: 0px 0px 5px #3b3b3b;
+          box-shadow: 0px 0px 5px #3b3b3b; /* some variation of blue for the shadow */
+
+}

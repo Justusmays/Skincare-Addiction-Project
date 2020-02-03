@@ -1,0 +1,166 @@
+body {background:#ffffff; font-family: 'Montserrat', sans-serif; height: 100%; margin: 0; padding: 0;}
+
+#wrapper{padding:90px 15px;}
+.navbar-expand-lg .navbar-nav.side-nav{flex-direction: column;}
+.navbar-brand {  position: absolute; left: 43%;}
+.header-top{box-shadow: 0 3px 5px rgba(0,0,0,.1)}
+.leftmenutrigger{display: none}
+@media(min-width:992px) {
+.leftmenutrigger{display: block;display: block;margin: 7px 20px 4px 0;cursor: pointer;}
+#wrapper{padding: 41px 15px 15px 15px; }
+.navbar-nav.side-nav.open {left:0;}
+.navbar-nav.side-nav{background: #dfdfdf;box-shadow: 2px 1px 2px rgba(0,0,0,.1);position:fixed;top:56px;flex-direction: column!important;left:-220px;width:200px;overflow-y:auto;bottom:0;overflow-x:hidden;padding-bottom:40px}
+.text {padding: 80px;}
+.row .col img {max-width: 100%; max-height: 100vh;height: auto;}
+}
+
+.animate{-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
+.carousel{-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
+
+
+.intro { background-color: #f9f9f9;}
+.intro .container  { padding: 100px;}
+.intro img {max-width: 140%;}
+.intro .container .col-8 {position: relative; left: 20%; padding-top: 5%;}
+
+.intro .intro-text {animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 0ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-656120872000782-2;}
+
+.mid-intro { padding: 90px;}
+.mid-intro img {width: 300px; height: 300px;}
+.mid-intro .col-sm {
+    padding-right: 60px;
+    text-align: justify;
+}
+
+
+.footer {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 50px;
+  height: 100px; 
+  width:100%;
+  position: relative;
+  left: 0;
+  bottom: 0; 
+  margin-top: 0px;
+}
+
+
+.Routine-C img {
+  width: 90%;
+  float: right;
+}
+
+.Routine-E {
+  background-color: #f9f9f9;
+}
+
+.Routine-E img {
+  width: 90%;
+  
+}
+
+.Routine-S img {
+  width: 90%;
+  float: right;
+}
+
+.Routine-M {
+  background-color: #f9f9f9;
+}
+
+.Routine-M img {
+  width: 90%;
+  
+}
+
+.Routine-SC img {
+  width: 90%;
+  float: right;
+}
+
+.Routine-SC a {
+  margin: 2%;
+}
+
+.Skintype .container {
+  background-color: #f9f9f9;
+  text-align: center;
+  margin: 60px auto;
+  
+}
+
+.Skintype .container .headers {
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+}
+
+.oily {
+  background-color: #f9f9f9;
+  padding-bottom: 60px;
+  text-align: justify;
+}
+
+.oily h1 {
+  text-align: center;
+  padding: 30px;
+}
+
+.oily img {
+  width: 100%;
+  border-radius: 10%;
+  
+  
+}
+
+.oil-cleanser img {
+  width: 80%;
+}
+
+.comb-cleanser img {
+  width: 90%;
+}
+
+.oil-exfol {
+  background-color: #f9f9f9;
+}
+
+.oil-moist {
+  background-color: #f9f9f9;
+}
+
+.oil-moist img{
+  width: 90%;
+  float: right;
+}
+
+.oil-serum img{
+  width: 90%;
+}
+
+.oil-exfol img{
+  width: 90%;
+  float: right;
+}
+
+.oil-SPF img {
+  width: 90%;
+}
+
+.oily h3 { 
+  animation: fadein 4s;}
+             
+ @keyframes fadein {
+     from { opacity: 0; }
+     to   { opacity: 1; }
+ }
+
+
+.oily p { 
+  animation: fadein 7s;}
+
+  
+.col-sm img {
+  width: 100%
+}            
